@@ -2290,14 +2290,17 @@ input, select, textarea {
 			border-radius: 10px;
 			position: relative;
 			overflow: hidden;
+			height: auto;
 
 		}
 
 		.proj img {
+			height: 220px;
 			width: 100%;
 			border-radius: 10px;
 			display: block;
 			transition: transform 0.5s;
+			
 		}
 
 		.wrk img {
@@ -2323,7 +2326,7 @@ input, select, textarea {
 			flex-direction: column;
 			padding: 0 40px;
 			text-align: center;
-			font-size: 18px;
+			font-size: 14px;
 			color: white;
 			transition: height 0.5s;
 		}
